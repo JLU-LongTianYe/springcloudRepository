@@ -1,1 +1,27 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/order?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: Long6617
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 192.168.207.133
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 192.168.207.133
+    port: 6379
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+env:
+  dev
+girl:
+  name: p1
+  age: 1222
 
