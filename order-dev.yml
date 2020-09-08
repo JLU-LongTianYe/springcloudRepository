@@ -20,7 +20,7 @@ PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
-  dev250000000
+  dev
 girl:
   name: pipipqqq1
   age: 123312
